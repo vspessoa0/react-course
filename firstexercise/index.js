@@ -1,19 +1,17 @@
-ReactDOM.render(
+const page = (
     <div>
-        <NavBar />
-        <MainContent />
-    </div>,
-    document.getElementById("root")
-);
-
-function NavBar() {
-    return (
-        <header>
-            <nav><p>NAVBAR</p></nav>
+       <header>
+            <h1>Hello</h1>
         </header>
-    )
-}
+        <main>
+            <h1>Notice</h1>
+            <h2>Quest</h2>
+            <p>lorem ipsum</p>
+        </main> 
+    </div>
+    
+)
 
-function MainContent() {
-    return (<h1>Hello</h1>)
-}
+const element = document.getElementById("root");
+
+ReactDOM.render(page, element);
