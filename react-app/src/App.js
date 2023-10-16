@@ -23,11 +23,20 @@ const List = () => {
   )
 }
 
+const Footer = () => {
+  return (
+    <footer>
+      <small>© 2023 Pessoa development. All rights reserverd.</small>
+    </footer>
+  )
+}
+
 const App = () => {
   return (
     <div>
-        <Header />
-        <List />
+      <Header />
+      <List />
+      <Footer />
     </div>
   )
 }
