@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
-import { Footer, Header, List } from './components';
+import { Nav, Main } from './components';
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <List />
-      <Footer />
+    <div className='container'>
+      <Nav />
+      <Main />
     </div>
   )
 }

@@ -1,0 +1,41 @@
+nav {
+    height: 91px;
+    flex-shrink: 0;
+    background: #21222A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 26px;
+}
+
+.logo {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+
+.logoIcon {
+    width: 28.93px;
+    height: 28.93px;
+    flex-shrink: 0;
+}
+
+.logo > h3 {
+    flex-shrink: 0;
+    color: #61DAFB;
+    font-size: 22.253px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.113px;
+}
+
+nav > h4 {
+    flex-shrink: 0;
+    color: #DEEBF8;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: right;
+}

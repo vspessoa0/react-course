@@ -1,0 +1,33 @@
+main {
+    padding-left: 27px;
+    padding-top: 57px;
+    flex-shrink: 0;
+}
+
+main > h1 {
+    color: #FFF;
+    font-size: 39.06px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.953px;
+    margin: 0;
+}
+
+main > ul {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #61DAFB;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
